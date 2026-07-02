@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: Customer dimension table.
+
+  - name: fct_orders
+    description: Fact table containing order level metrics.
+
+    columns:
+      - name: order_id
+        description: Unique order identifier.
+
+      - name: customer_id
+        description: Customer who placed the order.
+
+      - name: order_revenue
+        description: Total revenue for the order.

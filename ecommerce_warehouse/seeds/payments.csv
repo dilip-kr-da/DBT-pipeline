@@ -1,0 +1,4 @@
+payment_id,order_id,payment_method,amount
+1,1001,credit_card,1225
+2,1002,paypal,80
+3,1003,credit_card,50

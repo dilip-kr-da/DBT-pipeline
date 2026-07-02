@@ -1,0 +1,54 @@
+[0m20:36:18.551509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186AE8ED730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186B20D09E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186AFA50CB0>]}
+
+
+============================== 20:36:18.567176 | 1c769e33-f53c-4e23-8695-f06e821c8dc7 ==============================
+[0m20:36:18.567176 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:36:18.567176 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\krdil\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_warehouse', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:36:18.582949 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\krdil\.dbt
+[0m20:36:18.582949 [debug] [MainThread]: Starter project path: C:\Users\dilip\Desktop\OneDrive\Desktop\dbt\dbt-project\Lib\site-packages\dbt\include\starter_project
+[0m20:36:18.598636 [info ] [MainThread]: 
+Your new dbt project "ecommerce_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:36:18.598636 [info ] [MainThread]: Setting up your profile.
+[0m20:38:43.951999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD1B45D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD2D9E930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD4209040>]}
+
+
+============================== 20:38:43.960856 | f74ee7e6-093b-415d-80be-7cb16e98b1a1 ==============================
+[0m20:38:43.960856 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:38:43.960856 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\krdil\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init ecommerce_warehouse', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:38:43.982430 [debug] [MainThread]: Starter project path: C:\Users\dilip\Desktop\OneDrive\Desktop\dbt\dbt-project\Lib\site-packages\dbt\include\starter_project
+[0m20:38:43.993721 [info ] [MainThread]: 
+Your new dbt project "ecommerce_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:38:43.993721 [info ] [MainThread]: Setting up your profile.
+[0m20:39:03.129918 [info ] [MainThread]: Profile ecommerce_warehouse written to C:\Users\krdil\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m20:39:03.145605 [debug] [MainThread]: Command `dbt init` succeeded at 20:39:03.145605 after 19.35 seconds
+[0m20:39:03.145605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD56FFBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD6A75130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CD1B76A50>]}
+[0m20:39:03.145605 [debug] [MainThread]: Flushing usage events
+[0m20:39:03.756122 [debug] [MainThread]: An error was encountered while trying to flush usage events
